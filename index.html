@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <title>DEEP DAS ADHIKARI</title>
+</head>
+
+<body>
+    <div class="colors">
+        <input type="color" class="first">
+        <input type="color" class="second">
+        <H3>SELECT  COLOUR</H3>
+
+        <hr> 
+        <p class=" copyright"> Deep Das Adhikari @ 2022 AUGUST 1</p>
+       
+    </div>
+  
+<script>
+    const body = document.querySelector("body");
+const first = document.querySelector(".first");
+const second = document.querySelector(".second");
+
+function gradient() {
+  body.style.background = `linear-gradient(to right, ${first.value}, ${second.value})`
+}
+
+first.addEventListener("input", gradient);
+second.addEventListener("input", gradient);
+</script>
+    
+</body>
+</html>
