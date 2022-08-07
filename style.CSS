@@ -19,7 +19,7 @@ input{
 .first::-webkit-color-swatch,
 .second::-webkit-color-swatch{
   border-radius: 10%;
-  border: 4px solid #888;
+  border: 5px solid #888;
 }
 h3
 {
