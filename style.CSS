@@ -13,7 +13,7 @@ input{
   border: none;
   background-color: transparent;
   outline: none;
-  border-radius: 10%;
+  border-radius: 11%;
 }
 
 .first::-webkit-color-swatch,
